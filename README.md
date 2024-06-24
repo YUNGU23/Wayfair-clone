@@ -2,6 +2,8 @@
 
 This project is a front-end clone of Wayfair, built using Vite as the build tool and React for the UI components. It aims to replicate some of the core features of the Wayfair website, including product browsing, cart functionality, and user authentication.
 
+[**Open the Project**](https://wayfairclone.netlify.app/)
+
 ## Video Walkthrough
 
 ![Video Walkthrough](demo.gif)
