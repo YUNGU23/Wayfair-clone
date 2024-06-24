@@ -1,0 +1,80 @@
+.deal-of-the-day {
+  position: relative;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 10px;
+  transition: box-shadow 0.3s ease;
+  width: 90%;
+  cursor: pointer;
+}
+
+.deal-of-the-day:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.deal-image {
+  height: 300px;
+  width: auto;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.deal-tag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #c41b1b;
+  color: white;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 2px;
+}
+
+.deal-name {
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.deal-price {
+  margin-top: 14px;
+}
+
+.current-price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #c41b1b;
+}
+
+.original-price {
+  font-size: 14px;
+  color: #888;
+  text-decoration: line-through;
+  margin-left: 5px;
+}
+
+.deal-rating {
+  margin-top: 12px;
+}
+
+.star {
+  color: #d3d3d3;
+  font-size: 20px;
+}
+
+.star.filled {
+  color: #ffa41c;
+}
+
+.review-count {
+  color: #888;
+  font-size: 12px;
+  margin-left: 5px;
+}

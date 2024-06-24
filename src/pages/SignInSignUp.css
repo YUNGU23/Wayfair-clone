@@ -1,0 +1,71 @@
+.signin-signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #f0f2f5;
+  }
+  
+  .form-container {
+    max-width: 800px;
+    width: 80%; 
+    height:500px;
+    padding: 40px;
+    border-radius: 10px;
+    border: 1px solid #ccc; 
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .form-container h2 {
+    /* margin-bottom: 20px; */
+    color: #333; 
+  }
+  
+  .form-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  
+  .form-container input {
+    width: 90%; 
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+  }
+  
+  .form-container button {
+    background-color: #7B189F;
+    color:white;
+    border: 2px solid #7B189F;
+    border-radius: 20px; 
+    padding: 10px 20px;
+    width:40%;
+    margin-top: 20px;
+  }
+  
+  .form-container button:hover {
+    cursor:pointer;
+  }
+  
+  /* Additional styling for the toggle button to match the form's aesthetic */
+  .toggle-button {
+    background-color: transparent;
+    color: #7B189F;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 0;
+  }
+  
+  .toggle-button:hover {
+    text-decoration: underline;
+  }
+
+  .header-h2{
+    margin-bottom: 40px;
+  }

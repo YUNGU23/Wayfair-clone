@@ -1,0 +1,38 @@
+.card-ad {
+    margin-top: 40px;
+    width:90%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .card-ad-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align:left;
+  }
+  
+  .card-ad-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .card-ad-item {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .card-ad-item:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+  
+  .card-ad-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
