@@ -13,7 +13,7 @@
 }
 
 .deal-image {
-  height: 300px;
+  max-height: 300px;
   width: auto;
   object-fit: cover;
   border-radius: 4px;
@@ -34,6 +34,7 @@
 .deal-name {
   font-size: 16px;
   font-weight: normal;
+  color:rgba(0, 0, 0, 0.747);
   margin-top: 5px;
   margin-bottom: 5px;
   display: -webkit-box;
@@ -41,6 +42,7 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+  margin-top:20px;
 }
 
 .deal-price {
