@@ -1,56 +1,99 @@
 .home-page h1 { 
-    text-align: center; 
-    margin-bottom: 40px; 
-  }
-  
-  .product-grid { 
-    display: grid; 
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
-    gap: 20px; 
-  }
-  
-  .ad-banner { 
-    margin: 40px 0px 40px 0px; 
-    width: 90%; 
-    display: block;
-    margin-left: auto; 
-    margin-right: auto; 
-    cursor: pointer; 
-  }
-  
-  .deals-of-the-day { 
-    width: 90%;
-    margin: 0 auto;
-  }
-  
-  .section-header { 
-    display: flex; 
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
-  .dealOfTheDay-title { 
-    font-size: 24px; 
-    font-weight: bold; 
-    margin: 0;
-  }
-  
+  text-align: center; 
+  margin-bottom: 40px; 
+}
+
+.product-grid { 
+  display: grid; 
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+  gap: 20px; 
+}
+
+.ad-banner { 
+  margin: 40px 0; 
+  width: 90%; 
+  display: block;
+  margin-left: auto; 
+  margin-right: auto; 
+  cursor: pointer; 
+  max-width: 100%;
+  height: auto;
+}
+
+.deals-of-the-day { 
+  width: 90%;
+  margin: 0 auto;
+}
+
+.section-header { 
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.dealOfTheDay-title { 
+  font-size: 24px; 
+  font-weight: bold; 
+  margin: 0;
+}
+
+.deals-grid { 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 15px; 
+  margin-bottom: 80px;
+}
+
+.deals-grid img,
+.product-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
   .deals-grid { 
-    display: flex;
-    justify-content: space-between;
-    gap: 15px; 
-    position: relative;
-    margin-bottom:80px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    gap: 10px;
   }
-    
-  .deals-nav-button { 
-    right: -30px;
-    width: 30px; 
-    height: 30px;
-  font-size: 16px;
+
+  .section-header {
+    flex-direction: column;
+    align-items: flex-start;
   }
-  
-  .deals-nav-button:hover {
-    background-color: rgba(255, 255, 255, 0.8);
+
+  .ad-banner {
+    width: 100%;
   }
+}
+
+@media (max-width: 480px) {
+  .deals-grid { 
+    grid-template-columns: 1fr; 
+    gap: 5px;
+  }
+
+  .dealOfTheDay-title {
+    font-size: 20px;
+  }
+
+  .see-all {
+    font-size: 14px;
+  }
+}
